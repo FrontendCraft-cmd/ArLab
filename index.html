@@ -1,535 +1,566 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-	<title>ArLab</title>
-	<meta charset="UTF-8">
-	<meta name="format-detection" content="telephone=no">
-	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css?_v=20240226171125">
-	<link rel="stylesheet" href="files/slinky.min.css?_v=20240226171125">
-	<link rel="stylesheet" href="css/style.min.css?_v=20240226171125">
-	<link rel="shortcut icon" href="favicon.ico">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;500;600&display=swap&_v=20240226171125" rel="stylesheet">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>ArLab</title>
+   <meta charset="UTF-8">
+   <meta name="format-detection" content="telephone=no">
+   <link rel="stylesheet" type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css?_v=20240226171125">
+   <link rel="stylesheet" href="files/slinky.min.css?_v=20240226171125">
+   <link rel="stylesheet" href="css/style.min.css?_v=20240226171125">
+   <link rel="shortcut icon" href="favicon.ico">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;500;600&display=swap&_v=20240226171125"
+      rel="stylesheet">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
    <div class="wrapper">
       <header class="header">
-   <div class="container">
-      <div class="header__row flex-box align-items-center">
-         <a href="" class="header__logo">
-            <img src="img/logo.svg" alt="">
-         </a>
-         <div class="header__menu">
-            <nav class="menu">
-               <ul class="menu__list">
-                  <li class="menu__item">
-                     <a href="" class="menu__link">Категории</a>
-                  </li>
-                  <li class="menu__item">
-                     <a href="" class="menu__link">Бренды</a>
-                     <ul class="menu-brands">
-                        <li>
-                           <a href="">Arluni</a>
+         <div class="container">
+            <div class="header__row flex-box align-items-center">
+               <a href="" class="header__logo">
+                  <img src="img/logo.svg" alt="">
+               </a>
+               <div class="header__menu">
+                  <nav class="menu">
+                     <ul class="menu__list">
+                        <li class="menu__item">
+                           <a href="" class="menu__link">Категории</a>
                         </li>
-                        <li>
-                           <a href="">AVEC DÉFI</a>
+                        <li class="menu__item">
+                           <a href="" class="menu__link">Бренды</a>
+                           <ul class="menu-brands">
+                              <li>
+                                 <a href="">Arluni</a>
+                              </li>
+                              <li>
+                                 <a href="">AVEC DÉFI</a>
+                              </li>
+                              <li>
+                                 <a href="">DENTAMET</a>
+                              </li>
+                              <li>
+                                 <a href="">Q'MEN</a>
+                              </li>
+                              <li>
+                                 <a href="">SEPTIMA</a>
+                              </li>
+                           </ul>
                         </li>
-                        <li>
-                           <a href="">DENTAMET</a>
+                        <li class="menu__item">
+                           <a href="" class="menu__link">О компании</a>
                         </li>
-                        <li>
-                           <a href="">Q'MEN</a>
+                        <li class="menu__item">
+                           <a href="" class="menu__link">новости</a>
                         </li>
-                        <li>
-                           <a href="">SEPTIMA</a>
+                        <li class="menu__item">
+                           <a href="" class="menu__link">Где купить</a>
+                        </li>
+                        <li class="menu__item">
+                           <a href="" class="menu__link">Конаткты</a>
                         </li>
                      </ul>
-                  </li>
-                  <li class="menu__item">
-                     <a href="" class="menu__link">О компании</a>
-                  </li>
-                  <li class="menu__item">
-                     <a href="" class="menu__link">новости</a>
-                  </li>
-                  <li class="menu__item">
-                     <a href="" class="menu__link">Где купить</a>
-                  </li>
-                  <li class="menu__item">
-                     <a href="" class="menu__link">Конаткты</a>
-                  </li>
-               </ul>
-            </nav>
-         </div>
-         <div class="header__search">
-            <div class="header-search">
-               <form action="#" class="header-search__form">
-                  <button type="submit" class="header-search__btn"></button>
-                  <input type="text" class="header-search__input" placeholder="поиск">
-               </form>
-            </div>
-         </div>
-         <div class="header-burger">
-            <div class="header-burger__row">
-               <p>меню</p>
-               <div class="flex-box">
-                  <span></span>
-                  <span></span>
-                  <span></span>
+                  </nav>
                </div>
-            </div>
-         </div>
-         <div class="header-mobile">
-            <div class="container">
-               <div class="header-mobile__close"></div>
-               <div class="header-mobile__title">Меню</div>
-               <nav class="header-mobile__menu" id="mobileMenu">
-                  <ul>
-                     <li>
-                        <a href="">Категории</a>
-                        <ul>
-                           <li>
-                              <a href="">парфюмерия</a>
-                           </li>
-                           <li>
-                              <a href="">дезинфицирующие средства</a>
-                           </li>
-                           <li>
-                              <a href="">Уход за полостью рта</a>
-                           </li>
-                           <li>
-                              <a href="">средства для стирки</a>
-                           </li>
-                           <li>
-                              <a href="">уход за телом</a>
-                           </li>
-                           <li>
-                              <a href="">освежители воздуха</a>
-                           </li>
-                        </ul>
-                     </li>
-                     <li>
-                        <a href="">Бренды</a>
-                        <ul>
-                           <li>
-                              <a href="">Arluni</a>
-                           </li>
-                           <li>
-                              <a href="">AVEC DÉFI</a>
-                           </li>
-                           <li>
-                              <a href="">DENTAMET</a>
-                           </li>
-                           <li>
-                              <a href="">Q'MEN</a>
-                           </li>
-                           <li>
-                              <a href="">SEPTIMA</a>
-                           </li>
-                        </ul>
-                     </li>
-                     <li>
-                        <a href="">О компании</a>
-                     </li>
-                     <li>
-                        <a href="">новости</a>
-                     </li>
-                     <li>
-                        <a href="">Где купить</a>
-                     </li>
-                     <li>
-                        <a href="">Контакты</a>
-                     </li>
-                  </ul>
-               </nav>
-               <div class="header-mobile-search">
-                  <form action="#">
-                     <div class="header-mobile-search__row">
-                        <input type="text" placeholder="поиск">
-                        <button type="submit"></button>
+               <div class="header__search">
+                  <div class="header-search">
+                     <form action="#" class="header-search__form">
+                        <button type="submit" class="header-search__btn"></button>
+                        <input type="text" class="header-search__input" placeholder="поиск">
+                     </form>
+                  </div>
+               </div>
+               <div class="header-burger">
+                  <div class="header-burger__row">
+                     <p>меню</p>
+                     <div class="flex-box">
+                        <span></span>
+                        <span></span>
+                        <span></span>
                      </div>
-                  </form>
+                  </div>
                </div>
-               <div class="header-mobile-lang">
-                  <div class="header-mobile-lang__row">
-                     <a href="" class="header-mobile-lang__item">Rus</a>
-                     <a href="" class="header-mobile-lang__item">Eng</a>
+               <div class="header-mobile">
+                  <div class="container">
+                     <div class="header-mobile__close"></div>
+                     <div class="header-mobile__title">Меню</div>
+                     <nav class="header-mobile__menu" id="mobileMenu">
+                        <ul>
+                           <li>
+                              <a href="">Категории</a>
+                              <ul>
+                                 <li>
+                                    <a href="">парфюмерия</a>
+                                 </li>
+                                 <li>
+                                    <a href="">дезинфицирующие средства</a>
+                                 </li>
+                                 <li>
+                                    <a href="">Уход за полостью рта</a>
+                                 </li>
+                                 <li>
+                                    <a href="">средства для стирки</a>
+                                 </li>
+                                 <li>
+                                    <a href="">уход за телом</a>
+                                 </li>
+                                 <li>
+                                    <a href="">освежители воздуха</a>
+                                 </li>
+                              </ul>
+                           </li>
+                           <li>
+                              <a href="">Бренды</a>
+                              <ul>
+                                 <li>
+                                    <a href="">Arluni</a>
+                                 </li>
+                                 <li>
+                                    <a href="">AVEC DÉFI</a>
+                                 </li>
+                                 <li>
+                                    <a href="">DENTAMET</a>
+                                 </li>
+                                 <li>
+                                    <a href="">Q'MEN</a>
+                                 </li>
+                                 <li>
+                                    <a href="">SEPTIMA</a>
+                                 </li>
+                              </ul>
+                           </li>
+                           <li>
+                              <a href="">О компании</a>
+                           </li>
+                           <li>
+                              <a href="">новости</a>
+                           </li>
+                           <li>
+                              <a href="">Где купить</a>
+                           </li>
+                           <li>
+                              <a href="">Контакты</a>
+                           </li>
+                        </ul>
+                     </nav>
+                     <div class="header-mobile-search">
+                        <form action="#">
+                           <div class="header-mobile-search__row">
+                              <input type="text" placeholder="поиск">
+                              <button type="submit"></button>
+                           </div>
+                        </form>
+                     </div>
+                     <div class="header-mobile-lang">
+                        <div class="header-mobile-lang__row">
+                           <a href="" class="header-mobile-lang__item">Rus</a>
+                           <a href="" class="header-mobile-lang__item">Eng</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="header-lang">
+                  <div class="header-lang__title">
+                     <span>Rus</span>
+                  </div>
+                  <div class="header-lang__select">
+                     <ul>
+                        <li>
+                           <a href="">Eng</a>
+                        </li>
+                     </ul>
                   </div>
                </div>
             </div>
          </div>
-         <div class="header-lang">
-            <div class="header-lang__title">
-               <span>Rus</span>
-            </div>
-            <div class="header-lang__select">
-               <ul>
-                  <li>
-                     <a href="">Eng</a>
-                  </li>
-               </ul>
-            </div>
-         </div>
-      </div>
-   </div>
-</header>
+      </header>
       <main class="page">
          <section class="index-row">
-   <div class="container">
-      <div class="main-slider">
-         <div class="main-slider__slide">
-            <div class="main-slider__item">
-               <div class="main-slider__subtitle">
-                  «ArLab Solutions - красота, наука и инновации в каждой баночке!»
-               </div>
-               <div class="main-slider__title">
-                  Отдайте свою кожу в руки профессионалов: уходовая косметика для идеального результата
-               </div>
-               <div class="main-slider__bottom flex-box align-items-center">
-                  <a href="" class="main-slider__btn button">
-                     <span></span>Подробнее
-                  </a>
-                  <div class="main-slider__arrow slick-arrow slick-prev"></div>
-                  <div class="main-slider__arrow slick-arrow slick-next"></div>
-               </div>
-               <div class="main-slider__img ibg">
-                  <picture><source srcset="img/main-slider/01.webp" type="image/webp"><img src="img/main-slider/01.png" alt=""></picture>
-               </div>
-               <div class="main-slider__img ibg mobile">
-                  <picture><source srcset="img/main-slider/02.webp" type="image/webp"><img src="img/main-slider/02.png" alt=""></picture>
+            <div class="container">
+               <div class="main-slider">
+                  <div class="main-slider__slide">
+                     <div class="main-slider__item">
+                        <div class="main-slider__subtitle">
+                           «ArLab Solutions - красота, наука и инновации в каждой баночке!»
+                        </div>
+                        <div class="main-slider__title">
+                           Отдайте свою кожу в руки профессионалов: уходовая косметика для идеального результата
+                        </div>
+                        <div class="main-slider__bottom flex-box align-items-center">
+                           <a href="" class="main-slider__btn button">
+                              <span></span>Подробнее
+                           </a>
+                           <div class="main-slider__arrow slick-arrow slick-prev"></div>
+                           <div class="main-slider__arrow slick-arrow slick-next"></div>
+                        </div>
+                        <div class="main-slider__img ibg">
+                           <picture>
+                              <source srcset="img/main-slider/01.webp" type="image/webp"><img
+                                 src="img/main-slider/01.png" alt="">
+                           </picture>
+                        </div>
+                        <div class="main-slider__img ibg mobile">
+                           <picture>
+                              <source srcset="img/main-slider/02.webp" type="image/webp"><img
+                                 src="img/main-slider/02.png" alt="">
+                           </picture>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="main-slider__slide">
+                     <div class="main-slider__item">
+                        <div class="main-slider__subtitle">
+                           «ArLab Solutions - красота, наука и инновации в каждой баночке!»
+                        </div>
+                        <div class="main-slider__title">
+                           Отдайте свою кожу в руки профессионалов: уходовая косметика для идеального результата
+                        </div>
+                        <div class="main-slider__bottom flex-box align-items-center">
+                           <a href="" class="main-slider__btn button">
+                              <span></span>Подробнее
+                           </a>
+                           <div class="main-slider__arrow slick-arrow slick-prev"></div>
+                           <div class="main-slider__arrow slick-arrow slick-next"></div>
+                        </div>
+                        <div class="main-slider__img ibg">
+                           <picture>
+                              <source srcset="img/main-slider/01.webp" type="image/webp"><img
+                                 src="img/main-slider/01.png" alt="">
+                           </picture>
+                        </div>
+                        <div class="main-slider__img ibg mobile">
+                           <picture>
+                              <source srcset="img/main-slider/02.webp" type="image/webp"><img
+                                 src="img/main-slider/02.png" alt="">
+                           </picture>
+                        </div>
+                     </div>
+                  </div>
                </div>
             </div>
-         </div>
-         <div class="main-slider__slide">
-            <div class="main-slider__item">
-               <div class="main-slider__subtitle">
-                  «ArLab Solutions - красота, наука и инновации в каждой баночке!»
-               </div>
-               <div class="main-slider__title">
-                  Отдайте свою кожу в руки профессионалов: уходовая косметика для идеального результата
-               </div>
-               <div class="main-slider__bottom flex-box align-items-center">
-                  <a href="" class="main-slider__btn button">
-                     <span></span>Подробнее
-                  </a>
-                  <div class="main-slider__arrow slick-arrow slick-prev"></div>
-                  <div class="main-slider__arrow slick-arrow slick-next"></div>
-               </div>
-               <div class="main-slider__img ibg">
-                  <picture><source srcset="img/main-slider/01.webp" type="image/webp"><img src="img/main-slider/01.png" alt=""></picture>
-               </div>
-               <div class="main-slider__img ibg mobile">
-                  <picture><source srcset="img/main-slider/02.webp" type="image/webp"><img src="img/main-slider/02.png" alt=""></picture>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-</section>
+         </section>
          <section class="index-row">
-   <div class="brands-main">
-      <div class="container">
-         <div class="brands-main__slider">
-            <div class="brands-main__slide">
-               <a href="" class="brands-main__item">
-                  <img src="img/brands-main/01.svg" alt="">
-               </a>
+            <div class="brands-main">
+               <div class="container">
+                  <div class="brands-main__slider">
+                     <div class="brands-main__slide">
+                        <a href="" class="brands-main__item">
+                           <img src="img/brands-main/01.svg" alt="">
+                        </a>
+                     </div>
+                     <div class="brands-main__slide">
+                        <a href="" class="brands-main__item">
+                           <img src="img/brands-main/02.svg" alt="">
+                        </a>
+                     </div>
+                     <div class="brands-main__slide">
+                        <a href="" class="brands-main__item">
+                           <img src="img/brands-main/03.svg" alt="">
+                        </a>
+                     </div>
+                     <div class="brands-main__slide">
+                        <a href="" class="brands-main__item">
+                           <img src="img/brands-main/01.svg" alt="">
+                        </a>
+                     </div>
+                     <div class="brands-main__slide">
+                        <a href="" class="brands-main__item">
+                           <img src="img/brands-main/02.svg" alt="">
+                        </a>
+                     </div>
+                     <div class="brands-main__slide">
+                        <a href="" class="brands-main__item">
+                           <img src="img/brands-main/03.svg" alt="">
+                        </a>
+                     </div>
+                  </div>
+                  <div class="brands-main__nav">
+                     <div class="brands-main__prev slick-arrow slick-prev"></div>
+                     <div class="brands-main__next slick-arrow slick-next"></div>
+                  </div>
+               </div>
             </div>
-            <div class="brands-main__slide">
-               <a href="" class="brands-main__item">
-                  <img src="img/brands-main/02.svg" alt="">
-               </a>
-            </div>
-            <div class="brands-main__slide">
-               <a href="" class="brands-main__item">
-                  <img src="img/brands-main/03.svg" alt="">
-               </a>
-            </div>
-            <div class="brands-main__slide">
-               <a href="" class="brands-main__item">
-                  <img src="img/brands-main/01.svg" alt="">
-               </a>
-            </div>
-            <div class="brands-main__slide">
-               <a href="" class="brands-main__item">
-                  <img src="img/brands-main/02.svg" alt="">
-               </a>
-            </div>
-            <div class="brands-main__slide">
-               <a href="" class="brands-main__item">
-                  <img src="img/brands-main/03.svg" alt="">
-               </a>
-            </div>
-         </div>
-         <div class="brands-main__nav">
-            <div class="brands-main__prev slick-arrow slick-prev"></div>
-            <div class="brands-main__next slick-arrow slick-next"></div>
-         </div>
-      </div>
-   </div>
-</section>
+         </section>
          <section class="index-row margin-bottom-row" id="mainAbout">
-   <div class="container">
-      <div class="main-about">
-         <div class="subtitle">
-            О компании ArLab Solutions
-         </div>
-         <div class="big-title">
-            ArLab Solutions
-         </div>
-         <div class="main-about__row flex-box">
-            <div class="main-about__content">
-               <div class="main-about__text">
-                  Наша цель - помочь каждому человеку подчеркнуть свою индивидуальность и уникальность, сохраняя при
-                  этом здоровье и красоту кожи. Мы используем самые передовые технологии и экологически чистые
-                  ингредиенты, чтобы создавать продукты, отвечающие всем требованиям безопасности и эффективности.
-                  Благодаря ArLab Solutions вы сможете наслаждаться своей красотой каждый день!
+            <div class="container">
+               <div class="main-about">
+                  <div class="subtitle">
+                     О компании ArLab Solutions
+                  </div>
+                  <div class="big-title">
+                     ArLab Solutions
+                  </div>
+                  <div class="main-about__row flex-box">
+                     <div class="main-about__content">
+                        <div class="main-about__text">
+                           Наша цель - помочь каждому человеку подчеркнуть свою индивидуальность и уникальность,
+                           сохраняя при
+                           этом здоровье и красоту кожи. Мы используем самые передовые технологии и экологически чистые
+                           ингредиенты, чтобы создавать продукты, отвечающие всем требованиям безопасности и
+                           эффективности.
+                           Благодаря ArLab Solutions вы сможете наслаждаться своей красотой каждый день!
+                        </div>
+                        <a href="" class="main-about__btn button"><span></span>Больше о нас</a>
+                     </div>
+                     <div class="main-about__molecules" id="scene-1">
+                        <div class="molecules molecules-1" data-depth="0.3">
+                           <img src="img/molecules/molecules-1.svg" alt="">
+                        </div>
+                        <div class="molecules molecules-2" data-depth="0.35">
+                           <img src="img/molecules/molecules-2.svg" alt="">
+                        </div>
+                        <div class="molecules molecules-3" data-depth="0.5">
+                           <img src="img/molecules/molecules-3.svg" alt="">
+                        </div>
+                        <div class="molecules molecules-4" data-depth="0.7">
+                           <img src="img/molecules/molecules-4.svg" alt="">
+                        </div>
+                        <div class="molecules molecules-5" data-depth="0.9">
+                           <img src="img/molecules/molecules-5.svg" alt="">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="main-about__commentary">
+                     Мы - инновационная компания, занимающаяся разработкой
+                     и производством профессиональной косметики!
+                  </div>
                </div>
-               <a href="" class="main-about__btn button"><span></span>Больше о нас</a>
             </div>
-            <div class="main-about__molecules" id="scene-1">
-               <div class="molecules molecules-1" data-depth="0.3">
-                  <img src="img/molecules/molecules-1.svg" alt="">
-               </div>
-               <div class="molecules molecules-2" data-depth="0.35">
-                  <img src="img/molecules/molecules-2.svg" alt="">
-               </div>
-               <div class="molecules molecules-3" data-depth="0.5">
-                  <img src="img/molecules/molecules-3.svg" alt="">
-               </div>
-               <div class="molecules molecules-4" data-depth="0.7">
-                  <img src="img/molecules/molecules-4.svg" alt="">
-               </div>
-               <div class="molecules molecules-5" data-depth="0.9">
-                  <img src="img/molecules/molecules-5.svg" alt="">
-               </div>
-            </div>
-         </div>
-         <div class="main-about__commentary">
-            Мы - инновационная компания, занимающаяся разработкой
-            и производством профессиональной косметики!
-         </div>
-      </div>
-   </div>
-</section>
+         </section>
          <section class="index-row margin-bottom-row" id="newsLast">
-   <div class="container">
-      <div class="news-last">
-         <div class="subtitle">
-            ArLab Solutions News
-         </div>
-         <div class="head-row flex-box justify-space-between align-items-end">
-            <div class="title">
-               Будьте в курсе последних новостей и тенденций
-               в мире красоты
+            <div class="container">
+               <div class="news-last">
+                  <div class="subtitle">
+                     ArLab Solutions News
+                  </div>
+                  <div class="head-row flex-box justify-space-between align-items-end">
+                     <div class="title">
+                        Будьте в курсе последних новостей и тенденций
+                        в мире красоты
+                     </div>
+                     <a href="" class="news-last__btn button button__inherit"><span></span>все новости</a>
+                  </div>
+                  <div class="news-last__slider">
+                     <div class="news-last__slide">
+                        <a href="" class="news-card">
+                           <div class="news-card__top">
+                              <div class="news-card__row">
+                                 <div class="news-card__img ibg">
+                                    <picture>
+                                       <source srcset="img/news/01.webp" type="image/webp"><img src="img/news/01.png"
+                                          alt="">
+                                    </picture>
+                                 </div>
+                              </div>
+                              <div class="news-card__btn button__arrow"></div>
+                           </div>
+                           <div class="news-card__body">
+                              <div class="news-card__date">23.01.2024</div>
+                              <div class="news-card__title">
+                                 ARLUNI представляет запуск инновационной линейки мужской пены для бритья
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="news-last__slide">
+                        <a href="" class="news-card">
+                           <div class="news-card__top">
+                              <div class="news-card__row">
+                                 <div class="news-card__img ibg">
+                                    <picture>
+                                       <source srcset="img/news/02.webp" type="image/webp"><img src="img/news/02.png"
+                                          alt="">
+                                    </picture>
+                                 </div>
+                              </div>
+                              <div class="news-card__btn button__arrow"></div>
+                           </div>
+                           <div class="news-card__body">
+                              <div class="news-card__date">23.01.2024</div>
+                              <div class="news-card__title">
+                                 Бренд ARLUNI создал парфюмерию для дома при помощи искусственного интеллекта
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="news-last__slide">
+                        <a href="" class="news-card">
+                           <div class="news-card__top">
+                              <div class="news-card__row">
+                                 <div class="news-card__img ibg">
+                                    <picture>
+                                       <source srcset="img/news/03.webp" type="image/webp"><img src="img/news/03.png"
+                                          alt="">
+                                    </picture>
+                                 </div>
+                              </div>
+                              <div class="news-card__btn button__arrow"></div>
+                           </div>
+                           <div class="news-card__body">
+                              <div class="news-card__date">23.01.2024</div>
+                              <div class="news-card__title">
+                                 Мы запускаем бренд ARLUNI, с помощью которого каждый из вас может создавать вокруг себя
+                                 новую
+                                 реальность!
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="news-last__slide">
+                        <a href="" class="news-card">
+                           <div class="news-card__top">
+                              <div class="news-card__row">
+                                 <div class="news-card__img ibg">
+                                    <picture>
+                                       <source srcset="img/news/04.webp" type="image/webp"><img src="img/news/04.png"
+                                          alt="">
+                                    </picture>
+                                 </div>
+                              </div>
+                              <div class="news-card__btn button__arrow"></div>
+                           </div>
+                           <div class="news-card__body">
+                              <div class="news-card__date">23.01.2024</div>
+                              <div class="news-card__title">
+                                 Мы запускаем бренд ARLUNI, с помощью которого каждый из вас может создавать вокруг себя
+                                 новую
+                                 реальность!
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+                  </div>
+                  <a href="" class="news-last__btn button button__inherit show"><span></span>все новости</a>
+                  <div class="news-last__molecules" id="scene-2">
+                     <div class="molecules molecules-6" data-depth="0.55">
+                        <img src="img/molecules/molecules-6.svg" alt="">
+                     </div>
+                  </div>
+               </div>
             </div>
-            <a href="" class="news-last__btn button button__inherit"><span></span>все новости</a>
-         </div>
-         <div class="news-last__slider">
-            <div class="news-last__slide">
-               <a href="" class="news-card">
-                  <div class="news-card__top">
-                     <div class="news-card__row">
-                        <div class="news-card__img ibg">
-                           <picture><source srcset="img/news/01.webp" type="image/webp"><img src="img/news/01.png" alt=""></picture>
-                        </div>
-                     </div>
-                     <div class="news-card__btn button__arrow"></div>
-                  </div>
-                  <div class="news-card__body">
-                     <div class="news-card__date">23.01.2024</div>
-                     <div class="news-card__title">
-                        ARLUNI представляет запуск инновационной линейки мужской пены для бритья
-                     </div>
-                  </div>
-               </a>
-            </div>
-            <div class="news-last__slide">
-               <a href="" class="news-card">
-                  <div class="news-card__top">
-                     <div class="news-card__row">
-                        <div class="news-card__img ibg">
-                           <picture><source srcset="img/news/02.webp" type="image/webp"><img src="img/news/02.png" alt=""></picture>
-                        </div>
-                     </div>
-                     <div class="news-card__btn button__arrow"></div>
-                  </div>
-                  <div class="news-card__body">
-                     <div class="news-card__date">23.01.2024</div>
-                     <div class="news-card__title">
-                        Бренд ARLUNI создал парфюмерию для дома при помощи искусственного интеллекта
-                     </div>
-                  </div>
-               </a>
-            </div>
-            <div class="news-last__slide">
-               <a href="" class="news-card">
-                  <div class="news-card__top">
-                     <div class="news-card__row">
-                        <div class="news-card__img ibg">
-                           <picture><source srcset="img/news/03.webp" type="image/webp"><img src="img/news/03.png" alt=""></picture>
-                        </div>
-                     </div>
-                     <div class="news-card__btn button__arrow"></div>
-                  </div>
-                  <div class="news-card__body">
-                     <div class="news-card__date">23.01.2024</div>
-                     <div class="news-card__title">
-                        Мы запускаем бренд ARLUNI, с помощью которого каждый из вас может создавать вокруг себя новую
-                        реальность!
-                     </div>
-                  </div>
-               </a>
-            </div>
-            <div class="news-last__slide">
-               <a href="" class="news-card">
-                  <div class="news-card__top">
-                     <div class="news-card__row">
-                        <div class="news-card__img ibg">
-                           <picture><source srcset="img/news/04.webp" type="image/webp"><img src="img/news/04.png" alt=""></picture>
-                        </div>
-                     </div>
-                     <div class="news-card__btn button__arrow"></div>
-                  </div>
-                  <div class="news-card__body">
-                     <div class="news-card__date">23.01.2024</div>
-                     <div class="news-card__title">
-                        Мы запускаем бренд ARLUNI, с помощью которого каждый из вас может создавать вокруг себя новую
-                        реальность!
-                     </div>
-                  </div>
-               </a>
-            </div>
-         </div>
-         <a href="" class="news-last__btn button button__inherit show"><span></span>все новости</a>
-         <div class="news-last__molecules" id="scene-2">
-            <div class="molecules molecules-6" data-depth="0.55">
-               <img src="img/molecules/molecules-6.svg" alt="">
-            </div>
-         </div>
-      </div>
-   </div>
-</section>
+         </section>
          <section class="index-row" id="whereBuy">
-   <div class="container">
-      <div class="where-buy">
-         <div class="subtitle">
-            Где купить?
-         </div>
-         <div class="title">
-            Маркетплейсы, где можно приобрести товары ArLab Solutions
-         </div>
-         <div class="where-buy__content">
-            <a href="" class="where-buy__item">
-               <img src="img/where-buy/wildberries.svg" alt="" class="where-buy__img">
-            </a>
-            <a href="" class="where-buy__item">
-               <img src="img/where-buy/ozon.svg" alt="" class="where-buy__img">
-            </a>
-            <a href="" class="where-buy__item">
-               <img src="img/where-buy/wildberries.svg" alt="" class="where-buy__img">
-            </a>
-            <a href="" class="where-buy__item">
-               <img src="img/where-buy/ozon.svg" alt="" class="where-buy__img">
-            </a>
-         </div>
-         <div class="where-buy__molecules" id="scene-3">
-            <div class="molecules molecules-7" data-depth="0.3">
-               <img src="img/molecules/molecules-7.svg" alt="">
+            <div class="container">
+               <div class="where-buy">
+                  <div class="subtitle">
+                     Где купить?
+                  </div>
+                  <div class="title">
+                     Маркетплейсы, где можно приобрести товары ArLab Solutions
+                  </div>
+                  <div class="where-buy__content">
+                     <a href="" class="where-buy__item">
+                        <img src="img/where-buy/wildberries.svg" alt="" class="where-buy__img">
+                     </a>
+                     <a href="" class="where-buy__item">
+                        <img src="img/where-buy/ozon.svg" alt="" class="where-buy__img">
+                     </a>
+                     <a href="" class="where-buy__item">
+                        <img src="img/where-buy/wildberries.svg" alt="" class="where-buy__img">
+                     </a>
+                     <a href="" class="where-buy__item">
+                        <img src="img/where-buy/ozon.svg" alt="" class="where-buy__img">
+                     </a>
+                  </div>
+                  <div class="where-buy__molecules" id="scene-3">
+                     <div class="molecules molecules-7" data-depth="0.3">
+                        <img src="img/molecules/molecules-7.svg" alt="">
+                     </div>
+                     <div class="molecules molecules-8" data-depth="0.6">
+                        <img src="img/molecules/molecules-8.svg" alt="">
+                     </div>
+                     <div class="molecules molecules-9" data-depth="0.4">
+                        <img src="img/molecules/molecules-9.svg" alt="">
+                     </div>
+                  </div>
+                  <div class="where-buy__molecules-mobile">
+                     <div class="molecules molecules-mobile-4">
+                        <img src="img/molecules/molecules-mobile-4.svg" alt="">
+                     </div>
+                     <div class="molecules molecules-mobile-5">
+                        <img src="img/molecules/molecules-mobile-5.svg" alt="">
+                     </div>
+                     <div class="molecules molecules-mobile-6">
+                        <img src="img/molecules/molecules-mobile-6.svg" alt="">
+                     </div>
+                  </div>
+               </div>
             </div>
-            <div class="molecules molecules-8" data-depth="0.6">
-               <img src="img/molecules/molecules-8.svg" alt="">
-            </div>
-            <div class="molecules molecules-9" data-depth="0.4">
-               <img src="img/molecules/molecules-9.svg" alt="">
-            </div>
-         </div>
-         <div class="where-buy__molecules-mobile">
-            <div class="molecules molecules-mobile-4">
-               <img src="img/molecules/molecules-mobile-4.svg" alt="">
-            </div>
-            <div class="molecules molecules-mobile-5">
-               <img src="img/molecules/molecules-mobile-5.svg" alt="">
-            </div>
-            <div class="molecules molecules-mobile-6">
-               <img src="img/molecules/molecules-mobile-6.svg" alt="">
-            </div>
-         </div>
-      </div>
-   </div>
-</section>
+         </section>
       </main>
       <footer class="footer">
-	<div class="container">
-		<div class="flex-box">
-			<a href="" class="footer__logo">
-				<img src="img/footer/logo.svg" alt="">
-			</a>
-			<div class="footer__content">
-				<div class="footer__text">
-					Наслаждайся своей красотой каждый день благодаря
-					<span>ArLab Solutions </span>
-				</div>
-				<a href="" class="footer__btn button">
-					<span></span>
-					обратная связь
-				</a>
-				<div class="footer__row">
-					<nav class="footer__menu">
-						<ul class="footer__list">
-							<li class="footer__item">
-								<a href="" class="footer__link">Категории</a>
-							</li>
-							<li class="footer__item">
-								<a href="" class="footer__link">Бренды</a>
-							</li>
-							<li class="footer__item">
-								<a href="" class="footer__link">О компании</a>
-							</li>
-							<li class="footer__item">
-								<a href="" class="footer__link">Новости</a>
-							</li>
-							<li class="footer__item">
-								<a href="" class="footer__link">Где купить</a>
-							</li>
-							<li class="footer__item">
-								<a href="" class="footer__link">контакты</a>
-							</li>
-						</ul>
-					</nav>
-					<div class="footer__contacts contacts-footer">
-						<div class="contacts-footer__top">
-							<a href="tel:84995004367" class="contacts-footer__tel tel-anim">+7 (499) 500-43-67</a>
-							<a href="mailto:info@arlab.ru" class="contacts-footer__mail">info@arlab.ru</a>
-						</div>
-						<div class="contacts-footer__bottom">
-							<ul class="contacts-footer__list">
-								<li class="contacts-footer__item">
-									<a href="" class="contacts-footer__link">Одноклассники</a>
-								</li>
-								<li class="contacts-footer__item">
-									<a href="" class="contacts-footer__link">вконтакте</a>
-								</li>
-								<li class="contacts-footer__item">
-									<a href="" class="contacts-footer__link">youtube</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</footer>
+         <div class="container">
+            <div class="flex-box">
+               <a href="" class="footer__logo">
+                  <img src="img/footer/logo.svg" alt="">
+               </a>
+               <div class="footer__content">
+                  <div class="footer__text">
+                     Наслаждайся своей красотой каждый день благодаря
+                     <span>ArLab Solutions </span>
+                  </div>
+                  <a href="" class="footer__btn button">
+                     <span></span>
+                     обратная связь
+                  </a>
+                  <div class="footer__row">
+                     <nav class="footer__menu">
+                        <ul class="footer__list">
+                           <li class="footer__item">
+                              <a href="" class="footer__link">Категории</a>
+                           </li>
+                           <li class="footer__item">
+                              <a href="" class="footer__link">Бренды</a>
+                           </li>
+                           <li class="footer__item">
+                              <a href="" class="footer__link">О компании</a>
+                           </li>
+                           <li class="footer__item">
+                              <a href="" class="footer__link">Новости</a>
+                           </li>
+                           <li class="footer__item">
+                              <a href="" class="footer__link">Где купить</a>
+                           </li>
+                           <li class="footer__item">
+                              <a href="" class="footer__link">контакты</a>
+                           </li>
+                        </ul>
+                     </nav>
+                     <div class="footer__contacts contacts-footer">
+                        <div class="contacts-footer__top">
+                           <a href="tel:84995004367" class="contacts-footer__tel tel-anim">+7 (499) 500-43-67</a>
+                           <a href="mailto:info@arlab.ru" class="contacts-footer__mail">info@arlab.ru</a>
+                        </div>
+                        <div class="contacts-footer__bottom">
+                           <ul class="contacts-footer__list">
+                              <li class="contacts-footer__item">
+                                 <a href="" class="contacts-footer__link">Одноклассники</a>
+                              </li>
+                              <li class="contacts-footer__item">
+                                 <a href="" class="contacts-footer__link">вконтакте</a>
+                              </li>
+                              <li class="contacts-footer__item">
+                                 <a href="" class="contacts-footer__link">youtube</a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
    </div>
    <script src="https://code.jquery.com/jquery-3.7.0.min.js?_v=20240226171125"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js?_v=20240226171125"></script>
-<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js?_v=20240226171125"></script>
-<script src="https://cdn.jsdelivr.net/npm/sticksy/dist/sticksy.min.js?_v=20240226171125"></script>
-<script src="files/slinky.min.js?_v=20240226171125"></script>
-<script src="js/app.min.js?_v=20240226171125"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js?_v=20240226171125"></script>
+   <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js?_v=20240226171125"></script>
+   <script src="https://cdn.jsdelivr.net/npm/sticksy/dist/sticksy.min.js?_v=20240226171125"></script>
+   <script src="files/slinky.min.js?_v=20240226171125"></script>
+   <script src="js/app.min.js?_v=20240226171125"></script>
 </body>
 
 </html>
